@@ -1,0 +1,38 @@
+{{define "bootstrap"}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwitterClone.com</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/styles.css/" rel="stylesheet" >
+  <link href="/assets/signup-styles.css/" rel="stylesheet" >
+  <link rel="icon" href="https://img.icons8.com/fluency/344/twitter.png">
+  </head>
+  <body>
+   
+    {{/* {{template "signup" .}} */}}
+    {{/* {{template "yield" .}} */}}
+    {{/* {{template "navbar" .}} */}}
+
+
+    <div class="container-fluid">
+       {{/* {{template "yield" .}} */}}
+      {{template "signupForm" .}} 
+      {{/* {{if .Alert}}
+        {{template "alert" .Alert}}
+      {{end}} */}}
+      {{/* {{template "yield" .Yield}} */}}
+      {{/* {{template "footer"}} */}}
+    </div>
+
+    <!-- jquery & Bootstrap JS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+  </body>
+</html>
+{{end}}

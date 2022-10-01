@@ -1,0 +1,129 @@
+.container-left{
+    max-width: 50%;
+    width: 50%; 
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-right{
+    width: 50%; 
+    max-width: 50%; 
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h1{
+    font-size: 64px; 
+    font-weight: 900;
+    margin-top: 50px;
+    color: black;
+}
+h2{
+    font-size: 32px; 
+    font-weight: 900;
+    margin-top: 40px;
+    color: black; 
+}
+.btn-primary{
+    width: 300px; 
+    font-weight: 600;
+    font-size: 18px;
+    height:47px;
+    border-radius: 40px;
+    margin-top: 100px;
+    background-color: rgb(29, 155, 240);
+}
+.fine-print{
+    font-weight: 600; 
+    font-size: 8px;
+    color: black;
+    margin-top: 5px;
+    width: 300px;
+}
+.btn-outline-light{
+    border: 1px solid gray; 
+    border-radius: 40px; 
+    font-size: 18px;
+    margin-top: 20px;
+    height: 47px;
+    width: 300px; 
+    color:rgb(29, 155, 240)
+}
+.footer{
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 15px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 600px;
+    color: black;
+    border-radius: 16px;
+    position: sticky;
+    top: 250px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  input{
+    float:left;
+    width:150px;
+    margin-bottom:30px; /*or whatever you want the spacing to be*/
+    }
+form{
+    float:left; /*to clear the floats of inner elements,usefull if you wanna add a border or background image*/
+    width:300px;
+    }
+.form-control{
+height: 48px;
+}
+.modal-content{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.close{
+    padding-bottom: 32px;
+}
