@@ -99,6 +99,7 @@ h2{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    display: contents;
   }
   
   .close:hover,
@@ -116,14 +117,20 @@ form{
     float:left; /*to clear the floats of inner elements,usefull if you wanna add a border or background image*/
     width:300px;
     }
-.form-control{
-height: 48px;
-}
+
 .modal-content{
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 50px;
+    width: fit-content;
+    height: fit-content;
 }
 .close{
     padding-bottom: 32px;
 }
+@media (min-width: 992px) {
+    .form {
+      max-width: 80%;
+      height: 48px;
+    }
+  }
